@@ -44,7 +44,8 @@ for(var i =0;i<urls.length*3;i++){
 }
 
 var otherUrls = [
-    'https://dizhi9.pages.dev'
+    'https://dizhi9.pages.dev',
+	'https://dizhi9.pages.dev'
 ];
 var foreverUrls = [
 	'https://sqhub.net',
