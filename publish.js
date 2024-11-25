@@ -19,10 +19,12 @@ var subdomains = [
     'xjtu',  // 西安交通大学 (Xi'an Jiaotong University)
     'hit',  // 哈尔滨工业大学 Harbin Institute of Technology
 ];
+
 function getRandomSubdomain() {
     var index = Math.floor(Math.random() * subdomains.length);
     return subdomains[index];
 }
+
 function getRandomString() {
     var result = '';
     var characters = 'abcdefghijklmnopqrstuvwxyz';
@@ -32,6 +34,7 @@ function getRandomString() {
     }
     return result;
 }
+
 var emails = [
     'sqhub3678@gmail.com'
 ];
@@ -39,6 +42,7 @@ var emails = [
 var urls=[".psimlzqa.org",".cnvcnovk.org",".csbzaoes.cc"];
 
 var newestUrls = [];
+
 for(var i =0;i<urls.length*3;i++){
     newestUrls.push( 'https://' + getRandomSubdomain() +urls[randomNum(0,urls.length-1)]);
 }
@@ -58,7 +62,20 @@ var notices = [
     '* 大陆地区用户我们建议您可以使用VPN或者代理的方式来访问我们的永久地址。',
 	'* 大陆地区用户我们强烈建议您截图收藏当前页面(dizhi9.pages.dev)。'
 ];
-
+//生成从minNum到maxNum的随机数
+function randomNum(minNum,maxNum){ 
+    switch(arguments.length){ 
+        case 1: 
+            return parseInt(Math.random()*minNum+1,10); 
+        break; 
+        case 2: 
+            return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+        break; 
+            default: 
+                return 0; 
+            break; 
+    } 
+} 
 function createFieldElem(option) {
     var title = option.title;
     var items = option.items;
@@ -98,7 +115,9 @@ function createFieldElem(option) {
 }
 
 window.onload = function () {
+	
     var mainElem = document.getElementById('main');
+	
     // append logo
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
