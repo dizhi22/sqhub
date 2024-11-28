@@ -39,7 +39,7 @@ var emails = [
     'sqhub3678@gmail.com'
 ];
 
-var urls=[".psimlzqa.org",".cnvcnovk.org",".csbzaoes.cc"];
+var urls=[".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org",".csbzaoes.cc"];
 
 var newestUrls = [];
 
