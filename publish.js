@@ -39,7 +39,7 @@ var emails = [
     'sqhub3678@gmail.com'
 ];
 
-var urls=[".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org",".csbzaoes.cc"];
+var urls=[".uyqtwfwm.com",".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org"];
 
 var newestUrls = [];
 
@@ -48,11 +48,10 @@ for(var i =0;i<urls.length*3;i++){
 }
 
 var otherUrls = [
-    'https://dizhi9.pages.dev',
-	'https://dizhi9.pages.dev'
+    'https://dizhi9.pages.dev'
 ];
 var foreverUrls = [
-	'https://sqhub.net',
+	'https://17haose.com',
     'https://sex166.net',
 	'https://seqinghub.com'
 ];
