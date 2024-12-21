@@ -39,7 +39,7 @@ var emails = [
     'sqhub3678@gmail.com'
 ];
 
-var urls=[".uyqtwfwm.com",".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org"];
+var urls=[".kwncgug.com",".uyqtwfwm.com",".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org"];
 
 var newestUrls = [];
 
@@ -51,6 +51,7 @@ var otherUrls = [
     'https://dizhi9.pages.dev'
 ];
 var foreverUrls = [
+	'https://haosex.co',
 	'https://17haose.com',
     'https://sex166.net',
 	'https://seqinghub.com'
