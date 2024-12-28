@@ -39,7 +39,15 @@ var emails = [
     'sqhub3678@gmail.com'
 ];
 
-var urls=[".kwncgug.com",".uyqtwfwm.com",".zzhwoyv.com",".psimlzqa.org",".cnvcnovk.org"];
+var urls=[".kwncgug.com",".uyqtwfwm.com",".zzhwoyv.com",".psimlzqa.org"];
+
+var urls=[];
+	urls.push(".bhhvuuvq.net");
+	urls.push(".kwncgug.com");
+	urls.push(".uyqtwfwm.com");
+	urls.push(".zzhwoyv.com");
+
+var JumpPage="https://91kpw9.com";
 
 var newestUrls = [];
 
@@ -51,7 +59,7 @@ var otherUrls = [
     'https://dizhi9.pages.dev'
 ];
 var foreverUrls = [
-	'https://haosex.co',
+	JumpPage,
 	'https://17haose.com',
     'https://sex166.net',
 	'https://seqinghub.com'
