@@ -47,7 +47,7 @@ var urls=[];
 	urls.push(".uyqtwfwm.com");
 	urls.push(".zzhwoyv.com");
 
-var JumpPage="https://91kpw9.com";
+var JumpPage="https://huasex.com";
 
 var newestUrls = [];
 
